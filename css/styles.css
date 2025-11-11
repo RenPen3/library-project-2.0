@@ -15,7 +15,8 @@
 
 /* Header/ Navigation */
 .header {
-  padding: 2em 2em 1em 2em;
+  padding: 2em 2em .5em 2em;
+  transition: all .3s ease-in-out;
 }
 
 .header-content {
@@ -241,6 +242,7 @@
 
   .header {
     padding: 1em;
+    /* display: none; */
   }
 
   .header-nav {
