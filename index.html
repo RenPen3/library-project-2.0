@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Library Project Basic</title>
+    <link rel="stylesheet" href="css/resets.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Start -->
+     <!-- <header class="header">
+      <div class="header-content">
+        <a href="#" class="header-logo">American<span>Known</span></a>
+        
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Authors</a></li>
+            <li><a href="#">Genres</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <a href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-toggle-off"></i>
+          </a>
+          <a href="#">
+              <i style="display: none;" class="fa-solid fa-toggle-on"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-user"></i>
+          </a>
+          
+        </div>
+
+        <form class="header-form">
+          <input type="search" placeholder="Search...">
+        </form>
+
+      </div>
+     </header> -->
+
+     <main>
+      <div class="container">
+        <!-- Menu Sidebar -->
+        <aside class="menu box">
+          <div class="menu-container">
+            <h3 class="menu-title">Menu</h3>
+            <a href="#" class="menu-lines">
+              <div class="menu-line menu-line1"></div>
+              <div class="menu-line menu-line2"></div>
+              <div class="menu-line menu-line3"></div>
+            </a>
+          </div>
+          <!-- <div class="menu-add-book-btn"> -->
+          <a class="menu-add-book" href="#"
+            ><i class="fa-solid fa-plus"></i>&nbsp;Add a book</a
+          >
+          <!-- </div> -->
+          <aside class="menu-left-sidebar">
+            <ul class="menu-list">
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="#">Books</a></li>
+              <li><a href="#">Authors</a></li>
+              <li><a href="#">Genres</a></li>
+            </ul>
+          </aside>
+        </aside>
+        <!-- /Menu Sidebar -->
+
+        <!-- Main Content -->
+        <div class="content box">
+          <h3 class="content-title">Add a book</h3>
+          <form class="content-form">
+            <label for="name">Author's Name</label>
+            <input class="content-name" type="name" name="author" placeholder="Author's Name" />
+            <label for="name">Name of Book</label>
+            <input class="content-book" type="text" name="book" placeholder="Name of Book" />
+            <label for="name">Genre</label>
+            <input class="content-genre" type="text" name="genre" placeholder="Genre" />
+
+            <input class="content-btn" type="submit" value="Add New Book">
+
+          </form>
+        </div>
+        <!-- /Main Content -->
+
+        <!-- Collection Sidebar -->
+        <div class="collection box">
+          <h3 class="collection-title">Book Collection</h3>
+          <div class="collection-box">
+            <ul class="collection-list">
+              <li><a href="#">
+                <li>Book 1</li>
+                <li>Book 2</li>
+                <li>Book 3</li>
+                <li>Book 4</li>
+                <li>Book 5</li>
+                <li>Book 6</li>
+                <li>Book 7</li>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /Collection Sidebar -->
+      </div>
+    </main>
+    <!-- End -->
+  </body>
+</html>
