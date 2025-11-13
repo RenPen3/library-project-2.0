@@ -13,6 +13,14 @@
   border-radius: 7px;
 }
 
+.dashboard-title {
+  /* font-size: 1.3rem; */
+  padding: 1em;
+}
+.dashboard-title small {
+  color: #bebebe;
+}
+
 /* Header/ Navigation */
 .header {
   padding: 2em 2em .5em 2em;
@@ -38,8 +46,6 @@
   }
 }
 
-
-
 .header-list {
   display: flex;
 
@@ -52,11 +58,17 @@
   }
 
   & a {
-    color: #CCCCCC;
+    display: block;
+    color: #bebebe;
+    padding: .5em 1em;
+    border-radius: 4px;
+    transition: all .3s ease-in-out;
+    
   }
 
   & a:hover {
-    color: #FFFFFF;
+    color: #fafafa;
+    background: #333333;
   }
 }
 
@@ -81,7 +93,66 @@
   }
 }
 
+/* Hero Section */
+.hero {
+  margin: 2em;
+  border: 1px solid #424242;
+  border-radius: 7px;
+}
 
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: auto;
+  padding: 1em;
+  /* border: 2px solid rgb(219, 255, 219); */
+}
+
+.hero-left h1 {
+  font-size: 4rem;
+  margin-bottom: .2em;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 500px;
+  line-height: 28px;
+  margin-bottom: 2.5em;
+}
+
+.hero a {
+  font-size: 1rem;
+  margin-right: 1em;
+}
+
+.hero-btn {
+  padding: 1em 2em;
+  background: #000000;
+  border-radius: 7px;
+  transition: background .3s ease-in-out;
+
+  &:hover {
+    background: #444444;
+    border: 2px solid transparent;
+  }
+}
+
+.hero-btn--primary {
+  color: #FAFAFA;
+  background: #333333;
+  border: 2px solid transparent;
+}
+
+.hero-btn--secondary {
+  color: #FAFAFA;
+  background: transparent;
+  border: 2px solid #333333;
+}
+
+.hero-right img {
+  border-radius: 7px;
+}
 
 
 
@@ -90,7 +161,7 @@
   grid-area: one;
   border: 1px solid #424242;
   border-radius: 7px;
-  padding: 1em;
+  /* padding: 1em; */
 }
 
 .menu-container {
@@ -102,13 +173,10 @@
   /* border-radius: 7px; */
 }
 
-.menu-title {
-  font-size: 1.5rem;
-}
-
 .menu-lines {
   display: none;
 }
+
 
 .menu-add-book {
   display: block;
@@ -132,24 +200,20 @@
   margin: 0;
 }
 
-.menu-list {
-  margin-top: .5em;
-  background: #2f2f2f;
-  border-radius: 7px;
-  overflow: hidden;
 
-  & a {
-    color: #FFFFFF;
+.menu-link {
+    color: #bebebe;
     display: block;
     width: 100%;
     padding: 1em;
-    border-bottom: 1px solid #3a3a3a;
+    /* border-bottom: 1px solid #3a3a3a; */
   }
 
-  & a:hover {
-    background: #373737;
+.menu-link:hover {
+    color: #FAFAFA;
+    background: #333333;
   }
-}
+
 
 
 
@@ -162,30 +226,33 @@
   background: transparent;
   border: 1px solid #424242;
   border-radius: 7px;
-  padding: 1em;
-}
-
-.content-title {
-  font-size: 1.5rem;
+  /* padding: 1em; */
 }
 
 .content-form {
   display: flex;
   flex-direction: column;
+  padding: 1em;
 }
 
-.content-form > input {
+.content-input {
   width: 100%;
   font-size: 1.1rem;
-  padding: .4em;;
+  padding: .7em;;
 }
 
 .content-form > label {
-  margin-top: 1em;
-  margin-bottom: .3em;
+  color: #bebebe;
+  margin: 2em 0 .7em 0;
+  letter-spacing: .75px;
+}
+
+.content-form > label:first-child {
+  margin-top: 0;
 }
 
 .content-btn {
+  font-size: 1rem;
   color: #FFFFFF;
   margin-top: 2.5rem;
   padding: .6em;
@@ -194,6 +261,8 @@
   text-align: center;
   background: transparent;
   transition: all .3s ease-in-out;
+  width: 50%;
+  cursor: pointer;
 
 
     &:hover {
@@ -209,13 +278,50 @@
 .collection {
   grid-area: three;
   border: 1px solid #424242;
-  border-radius: 7px;
-  padding: 1em;
-  
+  border-radius: 7px;  
 }
 
-.collection-title {
-  font-size: 1.5rem;
+.collection small {
+  font-size: 1rem;
+  /* padding: 0 1em; */
+}
+
+.collection-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.collection-list li {
+  order: 5;
+  position: relative;
+  border-bottom: 1px solid #3a3a3a;
+  /* margin-top: 1em; */
+}
+
+.collection-list span {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: .5em;
+  font-size: .8rem;
+  color: #bebebe;
+  /* border-radius: 100px;
+  background: lime; */
+}
+
+.collection-link {
+  font-size: 1rem;
+  color: #bebebe;
+  display: block;
+  width: 100%;
+  padding: 1em;
+  line-height: 24px;
+  /* border-bottom: 1px solid #3a3a3a; */
+  }
+
+.collection-link:hover {
+  color: #FAFAFA;
+  background: #333333;
 }
 
 
