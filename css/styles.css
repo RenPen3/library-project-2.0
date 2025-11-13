@@ -154,6 +154,31 @@
   border-radius: 7px;
 }
 
+/* Card Section */
+.cards {
+  margin: 2em;
+  border: 1px solid #424242;
+  border-radius: 7px;
+}
+
+.cards h2 {
+  padding: 1em .7em .4em .7em;
+}
+
+.cards-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 3rem;
+  background: transparent;
+  padding: 1em;
+}
+
+.card {
+  padding: 1em;
+  border: 1px solid #424242;
+  border-radius: 7px;
+}
+
 
 
 /* Menu Sidebar */
