@@ -256,7 +256,7 @@
   color: #FFFFFF;
   margin-top: 2.5rem;
   padding: .6em;
-  border: 1px solid #FFFFFF;
+  border: 2px solid #424242;
   border-radius: 7px;
   text-align: center;
   background: transparent;
@@ -266,8 +266,8 @@
 
 
     &:hover {
-      color: lime;
-      border: 1px solid lime;
+      background: #444444;
+      border: 2px solid transparent;
   }
 }
 
