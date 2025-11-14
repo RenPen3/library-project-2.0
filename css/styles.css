@@ -212,9 +212,58 @@ section {
 
 
 /* Preview Section */
-.preview-content {
+.preview {
   padding: 1em 1em 0 1em;
 }
+
+.preview-content {
+  position: relative;
+  /* padding: 1em 1em 0 1em; */
+}
+
+.preview-content--overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: absolute;
+  bottom: 60px;
+  left: 24px;
+  /* padding: 2em; */
+  width: 100%;
+  height: 100%;
+}
+
+.preview-content--overlay h3 {
+  font-size: 3rem;
+}
+.preview-content--overlay p {
+  font-size: 1.2rem;
+}
+/* .preview-content {
+  display: block;
+  position: relative;
+  background-image: url('https://placehold.co/1200x500');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 70vh;
+  border-radius: 7px;
+} */
+
+/* .preview-content::before {
+  position: absolute;
+  top: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .5);
+  padding: 1em 1em 0 1em;
+  z-index: 100;
+  border-radius: 7px;
+} */
 
 .preview-content img {
   border-top-left-radius: 7px;
@@ -224,6 +273,14 @@ section {
 .preview-content h2 {
   padding: 1em .7em .4em .7em;
 }
+
+/* Footer Section */
+.footer {
+  padding: 1em;
+}
+
+
+/* ====== Dashboard ====== */
 
 /* Menu Sidebar */
 .menu {
