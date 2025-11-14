@@ -180,6 +180,41 @@
 }
 
 
+/* Featured Section */
+.featured {
+  margin: 0 2em;
+  border: 1px solid #424242;
+  border-radius: 7px;
+}
+.featured-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem;
+  padding: 1em;
+}
+.featured-card {
+  display: flex;
+  align-items: center;
+  padding: 3em;
+  border: 1px solid #424242;
+  border-radius: 7px;
+}
+
+.featured-card img {
+  width: 60px;
+  height: 60px;
+}
+
+.featured-card h3 {
+  padding-left: 1em;
+  line-height: 28px;
+}
+
+.featured h2 {
+    padding: 1em .7em .4em .7em;
+
+}
+
 
 /* Menu Sidebar */
 .menu {
