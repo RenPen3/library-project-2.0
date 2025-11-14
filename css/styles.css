@@ -21,9 +21,23 @@
   color: #bebebe;
 }
 
+section {
+  max-width: 1440px;
+  margin-inline: auto;
+  border: 1px solid #424242;
+  border-radius: 7px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+}
+
+.section-title {
+  padding: 1em .7em .4em .7em;
+}
+
 /* Header/ Navigation */
 .header {
-  padding: 2em 2em .5em 2em;
+  padding: 2em 0 0 0;
   transition: all .3s ease-in-out;
 }
 
@@ -34,6 +48,8 @@
   padding: 2em 1.2em;
   border: 1px solid #424242;
   border-radius: 7px;
+  max-width: 1440px;
+  margin-inline: auto;
 }
 
 .header-logo {
@@ -94,11 +110,7 @@
 }
 
 /* Hero Section */
-.hero {
-  margin: 2em;
-  border: 1px solid #424242;
-  border-radius: 7px;
-}
+
 
 .hero-content {
   display: flex;
@@ -155,15 +167,7 @@
 }
 
 /* Card Section */
-.cards {
-  margin: 2em;
-  border: 1px solid #424242;
-  border-radius: 7px;
-}
 
-.cards h2 {
-  padding: 1em .7em .4em .7em;
-}
 
 .cards-content {
   display: grid;
@@ -181,11 +185,6 @@
 
 
 /* Featured Section */
-.featured {
-  margin: 0 2em;
-  border: 1px solid #424242;
-  border-radius: 7px;
-}
 .featured-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -210,11 +209,21 @@
   line-height: 28px;
 }
 
-.featured h2 {
-    padding: 1em .7em .4em .7em;
 
+
+/* Preview Section */
+.preview-content {
+  padding: 1em 1em 0 1em;
 }
 
+.preview-content img {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.preview-content h2 {
+  padding: 1em .7em .4em .7em;
+}
 
 /* Menu Sidebar */
 .menu {
