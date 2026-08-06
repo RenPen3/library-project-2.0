@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Library Project Basic</title>
+    <link rel="stylesheet" href="/css/resets.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Start -->
+    <header class="header">
+      <div class="header-content">
+        <a href="#" class="header-logo">American<span>Known</span></a>
+
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li><a href="/dashboard.html" target="_blank">Dashboard</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Authors</a></li>
+            <li><a href="#">Genres</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <a href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-toggle-off"></i>
+          </a>
+          <a href="#">
+            <i style="display: none" class="fa-solid fa-toggle-on"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-user"></i>
+          </a>
+        </div>
+
+        <!-- <form class="header-form">
+          <input type="search" placeholder="Search..." />
+        </form> -->
+      </div>
+    </header>
