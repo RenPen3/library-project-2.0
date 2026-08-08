@@ -48,10 +48,13 @@
 
         <!-- Main Content -->
         <div class="content box">
-          <div class="dashboard-title">
+          <div class="dashboard-title add-book--title">
             <h3>Add a book</h3>
+            <button id="add-show--form">
+              <i class="fa-solid fa-plus"></i>
+            </button>
           </div>
-          <form class="content-form">
+          <form class="content-form show-form" method="POST" action="add_book.php">
             <label for="name">Author's Name</label>
             <input
               class="content-input content-name"
