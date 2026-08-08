@@ -19,7 +19,7 @@
 
         <nav class="header-nav">
           <ul class="header-list">
-            <li><a href="/dashboard.html" target="_blank">Dashboard</a></li>
+            <li><a href="/dashboard.php" target="_blank">Dashboard</a></li>
             <li><a href="#">Books</a></li>
             <li><a href="#">Authors</a></li>
             <li><a href="#">Genres</a></li>
