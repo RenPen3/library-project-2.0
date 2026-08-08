@@ -15,7 +15,7 @@
     <!-- Start -->
     <header class="header">
       <div class="header-content">
-        <a href="#" class="header-logo">American<span>Known</span></a>
+        <a href="#" class="header-logo">My<span>Library</span></a>
 
         <nav class="header-nav">
           <ul class="header-list">
