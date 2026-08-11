@@ -20,9 +20,12 @@
         <nav class="header-nav">
           <ul class="header-list">
             <li><a href="/dashboard.php" target="_blank">Dashboard</a></li>
-            <li><a href="#">Books</a></li>
-            <li><a href="#">Authors</a></li>
+            <li><a href="/pages/library.php">My Library</a></li>
+            <!-- <li><a href="#">Add Book</a></li> -->
+            <li><a href="/pages/list.php">Reading List</a></li>
+            <!-- <li><a href="#">Stats</a></li>
             <li><a href="#">Genres</a></li>
+            <li><a href="#">Authors</a></li> -->
           </ul>
         </nav>
 

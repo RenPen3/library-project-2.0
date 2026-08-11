@@ -38,9 +38,9 @@
           <div class="menu-left-sidebar">
             <ul class="menu-list">
               <li><a class="menu-link" href="/">Home</a></li>
-              <li><a class="menu-link" href="#">Books</a></li>
-              <li><a class="menu-link" href="#">Authors</a></li>
-              <li><a class="menu-link" href="#">Genres</a></li>
+              <li><a class="menu-link" href="pages/library.php" target>My Library</a></li>
+              <!-- <li><a class="menu-link" href="#">Authors</a></li>
+              <li><a class="menu-link" href="#">Genres</a></li> -->
             </ul>
           </div>
         </aside>
