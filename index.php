@@ -1,3 +1,4 @@
+<<<<<<< HEAD:index.html
 <!doctype html>
 <html lang="en">
   <head>
@@ -46,6 +47,9 @@
         </form> -->
       </div>
     </header>
+=======
+<?php include 'components/header.php'; ?>
+>>>>>>> 26395a7e6c482179b1090d13fc85ba967b002cd6:index.php
 
     <main>
       <section class="hero">
@@ -147,11 +151,7 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="footer-content">
-        <h4>Footer Section</h4>
-      </div>
-    </footer>
-    <!-- End -->
-  </body>
-</html>
+<?php include 'components/footer.php'; ?>
+
+
+    
